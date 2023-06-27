@@ -15,7 +15,6 @@
 		AF0AB7452A436C44009E4BEC /* KeychainManager.m in Sources */ = {isa = PBXBuildFile; fileRef = AF0AB7442A436C44009E4BEC /* KeychainManager.m */; };
 		AF0AB74C2A437F26009E4BEC /* MainPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF0AB74B2A437F26009E4BEC /* MainPageViewController.m */; };
 		AF0AB74F2A437F3F009E4BEC /* MainPageModel.m in Sources */ = {isa = PBXBuildFile; fileRef = AF0AB74E2A437F3F009E4BEC /* MainPageModel.m */; };
-		AF0AB7522A437F55009E4BEC /* MainPageView.m in Sources */ = {isa = PBXBuildFile; fileRef = AF0AB7512A437F55009E4BEC /* MainPageView.m */; };
 		AFDE7CC72A2F6548005D2D3C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AFDE7CC62A2F6548005D2D3C /* AppDelegate.m */; };
 		AFDE7CD22A2F654A005D2D3C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFDE7CD12A2F654A005D2D3C /* Assets.xcassets */; };
 		AFDE7CD52A2F654A005D2D3C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFDE7CD32A2F654A005D2D3C /* LaunchScreen.storyboard */; };
@@ -23,6 +22,9 @@
 		AFDE7CE22A2F654A005D2D3C /* WeShuTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AFDE7CE12A2F654A005D2D3C /* WeShuTests.m */; };
 		AFDE7CEC2A2F654A005D2D3C /* WeShuUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AFDE7CEB2A2F654A005D2D3C /* WeShuUITests.m */; };
 		AFDE7CEE2A2F654A005D2D3C /* WeShuUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AFDE7CED2A2F654A005D2D3C /* WeShuUITestsLaunchTests.m */; };
+		AFF94AD22A46097C00A33BB1 /* MainPageTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AFF94AD12A46097C00A33BB1 /* MainPageTableViewCell.m */; };
+		AFF94AD82A4AD01D00A33BB1 /* mainPageData.plist in Resources */ = {isa = PBXBuildFile; fileRef = AFF94AD72A4AD01D00A33BB1 /* mainPageData.plist */; };
+		AFF94ADA2A4B0BA000A33BB1 /* MainPageCustomTopView.m in Sources */ = {isa = PBXBuildFile; fileRef = AFF94AD92A4B0BA000A33BB1 /* MainPageCustomTopView.m */; };
 		B34BFA78999EBA38926B38D1 /* Pods_WeShu_WeShuUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CDA4190D7CFBA89DAFDBEDF /* Pods_WeShu_WeShuUITests.framework */; };
 		DE899F5EAC96BBB6A051F10A /* Pods_WeShu.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4ED6F8CF826F8D39BB746D78 /* Pods_WeShu.framework */; };
 /* End PBXBuildFile section */
@@ -65,8 +67,6 @@
 		AF0AB74B2A437F26009E4BEC /* MainPageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainPageViewController.m; sourceTree = "<group>"; };
 		AF0AB74D2A437F3F009E4BEC /* MainPageModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainPageModel.h; sourceTree = "<group>"; };
 		AF0AB74E2A437F3F009E4BEC /* MainPageModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainPageModel.m; sourceTree = "<group>"; };
-		AF0AB7502A437F55009E4BEC /* MainPageView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainPageView.h; sourceTree = "<group>"; };
-		AF0AB7512A437F55009E4BEC /* MainPageView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainPageView.m; sourceTree = "<group>"; };
 		AFDE7CC22A2F6548005D2D3C /* WeShu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeShu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFDE7CC52A2F6548005D2D3C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		AFDE7CC62A2F6548005D2D3C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -79,6 +79,11 @@
 		AFDE7CE72A2F654A005D2D3C /* WeShuUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeShuUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFDE7CEB2A2F654A005D2D3C /* WeShuUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WeShuUITests.m; sourceTree = "<group>"; };
 		AFDE7CED2A2F654A005D2D3C /* WeShuUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WeShuUITestsLaunchTests.m; sourceTree = "<group>"; };
+		AFF94AD02A46097C00A33BB1 /* MainPageTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainPageTableViewCell.h; sourceTree = "<group>"; };
+		AFF94AD12A46097C00A33BB1 /* MainPageTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainPageTableViewCell.m; sourceTree = "<group>"; };
+		AFF94AD72A4AD01D00A33BB1 /* mainPageData.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = mainPageData.plist; sourceTree = SOURCE_ROOT; };
+		AFF94AD92A4B0BA000A33BB1 /* MainPageCustomTopView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainPageCustomTopView.m; sourceTree = "<group>"; };
+		AFF94ADB2A4B0BDC00A33BB1 /* MainPageCustomTopView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainPageCustomTopView.h; sourceTree = "<group>"; };
 		CCB45811094D212AC857F158 /* Pods-WeShu-WeShuUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeShu-WeShuUITests.release.xcconfig"; path = "Target Support Files/Pods-WeShu-WeShuUITests/Pods-WeShu-WeShuUITests.release.xcconfig"; sourceTree = "<group>"; };
 		D84AE88FC978FBC6BAF7DA01 /* Pods-WeShu.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeShu.debug.xcconfig"; path = "Target Support Files/Pods-WeShu/Pods-WeShu.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -195,8 +200,10 @@
 		AF0AB7472A437EE0009E4BEC /* View */ = {
 			isa = PBXGroup;
 			children = (
-				AF0AB7502A437F55009E4BEC /* MainPageView.h */,
-				AF0AB7512A437F55009E4BEC /* MainPageView.m */,
+				AFF94AD02A46097C00A33BB1 /* MainPageTableViewCell.h */,
+				AFF94AD12A46097C00A33BB1 /* MainPageTableViewCell.m */,
+				AFF94ADB2A4B0BDC00A33BB1 /* MainPageCustomTopView.h */,
+				AFF94AD92A4B0BA000A33BB1 /* MainPageCustomTopView.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -252,6 +259,7 @@
 				AFDE7CD12A2F654A005D2D3C /* Assets.xcassets */,
 				AFDE7CD32A2F654A005D2D3C /* LaunchScreen.storyboard */,
 				AFDE7CD62A2F654A005D2D3C /* Info.plist */,
+				AFF94AD72A4AD01D00A33BB1 /* mainPageData.plist */,
 				AFDE7CD72A2F654A005D2D3C /* main.m */,
 			);
 			path = WeShu;
@@ -382,6 +390,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AFF94AD82A4AD01D00A33BB1 /* mainPageData.plist in Resources */,
 				AFDE7CD52A2F654A005D2D3C /* LaunchScreen.storyboard in Resources */,
 				AFDE7CD22A2F654A005D2D3C /* Assets.xcassets in Resources */,
 			);
@@ -512,10 +521,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				AFDE7CC72A2F6548005D2D3C /* AppDelegate.m in Sources */,
+				AFF94AD22A46097C00A33BB1 /* MainPageTableViewCell.m in Sources */,
 				AF0AB7362A3AA65A009E4BEC /* LogInModel.m in Sources */,
 				AF0AB73F2A3AB86D009E4BEC /* LogInView.m in Sources */,
 				AFDE7CD82A2F654A005D2D3C /* main.m in Sources */,
-				AF0AB7522A437F55009E4BEC /* MainPageView.m in Sources */,
+				AFF94ADA2A4B0BA000A33BB1 /* MainPageCustomTopView.m in Sources */,
 				AF0AB74C2A437F26009E4BEC /* MainPageViewController.m in Sources */,
 				AF0AB74F2A437F3F009E4BEC /* MainPageModel.m in Sources */,
 				AF0AB7332A3AA61C009E4BEC /* LogInViewController.m in Sources */,

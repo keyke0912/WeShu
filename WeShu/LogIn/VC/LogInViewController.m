@@ -48,7 +48,9 @@
 #pragma mark Delegate
 -(void)logInButtonTapped {
     MainPageViewController *mainPageViewController = [[MainPageViewController alloc] init];
+    [KeychainManager storeUserId:self.logInView.userId passcode:self.logInView.passcode];
     [self.navigationController pushViewController:mainPageViewController animated:YES];
+    
 }
 
 @end
